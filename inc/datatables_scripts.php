@@ -82,7 +82,7 @@
 					"data": [
 						<?php foreach($maps as $map): ?>
 							[
-								'<?php echo $map['mapname']; ?> <a href="maps.php?map=<?php echo $map['mapname']; ?>" class="text-muted"><i class="fas fa-link"></i></a>',
+								'<a href="maps.php?map=<?php echo $map['mapname']; ?>"><?php echo $map['mapname']; ?></a>',
 								'<?php echo $map['tier']; ?>',
 								'<?php echo number_format($map['maxvelocity']); ?>'
 							],
