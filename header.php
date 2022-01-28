@@ -13,7 +13,7 @@
 	<meta name="description" content="Surf Stats">
 	<meta name="author" content="Kristián Partl">
 	
-	<title><?php echo $page_name; ?> - Surf Stats</title>
+	<title><?php echo $page_name; ?> - GFL Surf Stats</title>
 
 	<link rel="icon" href="./images/favicon.png" type="image">
 

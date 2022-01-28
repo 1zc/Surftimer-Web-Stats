@@ -16,7 +16,7 @@
                 <div class="col-12">  
                     <div class="card shadow-sm my-2">
                         <div class="card-header">
-                            SurfStats's <?php echo MOST_ACTIVE;?> <small class="text-muted">| <?php echo MOST_ACTIVE_DESCRIPTION;?></small>
+                            GFL Surf's <?php echo MOST_ACTIVE;?> <small class="text-muted">| <?php echo MOST_ACTIVE_DESCRIPTION;?></small>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">

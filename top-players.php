@@ -14,7 +14,7 @@
                 <div class="col-12">  
                     <div class="card shadow-sm my-2">
                         <div class="card-header">
-                            SurfStats's <?php echo TOP;?> <?php echo $settings_top_players_count;?> <?php echo PLAYERS;?>
+                            GFL Surf's <?php echo TOP;?> <?php echo $settings_top_players_count;?> <?php echo PLAYERS;?>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">

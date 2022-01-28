@@ -19,7 +19,7 @@
                         <?php if(isset($mapname)): ?>
                             
                             <div class="card-header">
-                                <a href="maps.php" class="text-muted">SurfStats's <?php echo MAPS_COLLECTION;?></a> / <?php echo $mapname;?>
+                                <a href="maps.php" class="text-muted">GFL Surf's <?php echo MAPS_COLLECTION;?></a> / <?php echo $mapname;?>
                             </div>
                             <?php if(mysqli_num_rows($results_map) > 0): ?>
 
@@ -158,7 +158,7 @@
                         <?php else: ?>
 
                             <div class="card-header">
-                                SurfStats's <?php echo MAPS_COLLECTION;?>
+                                GFL Surf's <?php echo MAPS_COLLECTION;?>
                             </div>
                             <div class="card-body">
                                 <div class="table-responsive">
