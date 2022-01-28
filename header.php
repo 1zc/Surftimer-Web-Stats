@@ -15,7 +15,7 @@
 	
 	<title><?php echo $page_name; ?> - Surf Stats</title>
 
-	<link rel="icon" href="./images/favicon.svg" type="image">
+	<link rel="icon" href="./images/favicon.png" type="image">
 
 	<!-- Bootstrap core CSS -->
 	<?php
