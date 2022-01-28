@@ -17,7 +17,7 @@
 						<?php $top_player_row = 0; foreach($top_players as $top_player): ?>
 							[
 								'<?php echo ++$top_player_row; ?>.',
-								'<?php echo $top_player["name"]; ?> <a href="https://steamcommunity.com/profiles/<?php echo $top_player['steamid64']; ?>" target="_blank" title="<?php echo $top_player['name']; ?> - <?php echo STEAM_PROFILE;?>" class="text-muted"><i class="fab fa-steam"></i></a>',
+								'<a href="https://steamcommunity.com/profiles/<?php echo $top_player['steamid64']; ?>" target="_blank" title="<?php echo $top_player['name']; ?> - <?php echo STEAM_PROFILE;?>" class="text-body"><?php echo $top_player["name"]; ?> <i class="fab fa-steam text-muted"></i></a>',
 								'<?php echo number_format($top_player["points"]); ?>',
 								'<?php echo number_format($top_player["finishedmapspro"]); ?>',
 								'<?php echo number_format($top_player["finishedbonuses"]); ?>',
@@ -56,7 +56,7 @@
 							?>
 							[
 								'<?php echo ++$most_active_row; ?>.',
-								'<?php echo $most_active["name"]; ?> <a href="https://steamcommunity.com/profiles/<?php echo $most_active['steamid64']; ?>" target="_blank" title="<?php echo $most_active['name']; ?> - <?php echo STEAM_PROFILE;?>" class="text-muted"><i class="fab fa-steam"></i></a>',
+								'<a href="https://steamcommunity.com/profiles/<?php echo $most_active['steamid64']; ?>" target="_blank" title="<?php echo $most_active['name']; ?> - <?php echo STEAM_PROFILE;?>" class="text-body"><?php echo $most_active["name"]; ?> <i class="fab fa-steam text-muted"></i></a>',
 								'<?php echo  number_format(($most_active["totaltime"]/60)/60, 1); ?>',
 								'<?php echo number_format($most_active["connections"]); ?>',
 								'<?php echo $most_active_lastseen; ?>',
@@ -82,7 +82,7 @@
 					"data": [
 						<?php foreach($maps as $map): ?>
 							[
-								'<a href="maps.php?map=<?php echo $map['mapname']; ?>"><?php echo $map['mapname']; ?></a>',
+								'<a href="maps.php?map=<?php echo $map['mapname']; ?>" class="text-body"><?php echo $map['mapname']; ?> <i class="fas fa-link text-muted"></i></a>',
 								'<?php echo $map['tier']; ?>',
 								'<?php echo number_format($map['maxvelocity']); ?>'
 							],
