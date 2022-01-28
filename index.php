@@ -74,8 +74,8 @@
                                             $dateFormat_r10rs = date('d/m/Y  H:i', strtotime($r10r['date']));
                                         ?>
                                         <tr>
-                                            <td class="px-3"><?php echo $r10r['normal_name']; ?> <a href="https://steamcommunity.com/profiles/<?php echo $r10r['steamid64']; ?>" target="_blank" title="<?php echo $r10r['normal_name']; ?> - <?php echo STEAM_PROFILE;?>" class="text-muted"><i class="fab fa-steam"></i></a></td>
-                                            <td class="text-center"><?php echo $r10r['map']; ?> <a href="maps.php?map=<?php echo $r10r['map']; ?>" class="text-muted"><i class="fas fa-link"></i></a></td>
+                                            <td class="px-3"><a href="https://steamcommunity.com/profiles/<?php echo $r10r['steamid64']; ?>" target="_blank" title="<?php echo $r10r['normal_name']; ?> - <?php echo STEAM_PROFILE;?>" class="text-body"><?php echo $r10r['normal_name']; ?> <i class="fab fa-steam text-muted"></i></a></td>
+                                            <td class="text-center"><a href="maps.php?map=<?php echo $r10r['map']; ?>" class="text-body"><?php echo $r10r['map']; ?> <i class="fas fa-link text-muted"></i></a></td>
                                             <td class="text-center"><?php echo $runtime_r10rs_timeFormat; ?></td>
                                             <td class="text-center"><?php echo $dateFormat_r10rs; ?></td>
                                         </tr>
@@ -111,7 +111,7 @@
                                         ?>
                                         <tr>
                                             <td class="text-center"><?php echo ++$t10p_row_number; ?>.</td>
-                                            <td class="text-left"><?php echo $t10p['name']; ?> <a href="https://steamcommunity.com/profiles/<?php echo $t10p['steamid64']; ?>" target="_blank" title="<?php echo $t10p['name']; ?> - <?php echo STEAM_PROFILE;?>" class="text-muted"><i class="fab fa-steam"></i></a></td>
+                                            <td class="text-left"><a href="https://steamcommunity.com/profiles/<?php echo $t10p['steamid64']; ?>" target="_blank" title="<?php echo $t10p['name']; ?> - <?php echo STEAM_PROFILE;?>" class="text-body"><?php echo $t10p['name']; ?> <i class="fab fa-steam text-muted"></i></a></td>
                                             <td class="text-center"><?php echo number_format($t10p['points']); ?></td>
                                             <td class="text-center"><?php echo number_format($t10p['finishedmapspro']); ?></td>
                                             <td class="text-center"><?php echo number_format($t10p['finishedbonuses']); ?></td>
@@ -147,7 +147,7 @@
                                         ?>
                                         <tr>
                                             <td class="text-center"><?php echo ++$t10wrh_row_number; ?>.</td>
-                                            <td class="text-left"><?php echo $t10wrh['name']; ?> <a href="https://steamcommunity.com/profiles/<?php echo $t10wrh['steamid64']; ?>" target="_blank" title="<?php echo $t10wrh['name']; ?> - <?php echo STEAM_PROFILE;?>" class="text-muted"><i class="fab fa-steam"></i></a></td>
+                                            <td class="text-left"><a href="https://steamcommunity.com/profiles/<?php echo $t10wrh['steamid64']; ?>" target="_blank" title="<?php echo $t10wrh['name']; ?> - <?php echo STEAM_PROFILE;?>" class="text-body"><?php echo $t10wrh['name']; ?> <i class="fab fa-steam text-muted"></i></a></td>
                                             <td class="text-center"><?php echo number_format($t10wrh['wrs']); ?></td>
                                             <td class="text-center"><?php echo number_format($t10wrh['finishedmapspro']); ?></td>
                                         </tr>
@@ -181,7 +181,7 @@
                                         ?>
                                         <tr>
                                             <td class="text-center"><?php echo ++$t10bwrh_row_number; ?>.</td>
-                                            <td class="text-left"><?php echo $t10bwrh['name']; ?>  <a href="https://steamcommunity.com/profiles/<?php echo $t10bwrh['steamid64']; ?>" target="_blank" title="<?php echo $t10bwrh['name']; ?> - <?php echo STEAM_PROFILE;?>" class="text-muted"><i class="fab fa-steam"></i></a></td>
+                                            <td class="text-left"><a href="https://steamcommunity.com/profiles/<?php echo $t10bwrh['steamid64']; ?>" target="_blank" title="<?php echo $t10bwrh['name']; ?> - <?php echo STEAM_PROFILE;?>" class="text-body"><?php echo $t10bwrh['name']; ?> <i class="fab fa-steam text-muted"></i></a></td>
                                             <td class="text-center"><?php echo number_format($t10bwrh['wrbs']); ?></td>
                                             <td class="text-center"><?php echo number_format($t10bwrh['finishedbonuses']); ?></td>
                                         </tr>
@@ -215,7 +215,7 @@
                                         ?>
                                         <tr>
                                             <td class="text-center"><?php echo ++$t10swrh_row_number; ?>.</td>
-                                            <td class="text-left"><?php echo $t10swrh['name']; ?> <a href="https://steamcommunity.com/profiles/<?php echo $t10swrh['steamid64']; ?>" target="_blank" title="<?php echo $t10swrh['name']; ?> - <?php echo STEAM_PROFILE;?>" class="text-muted"><i class="fab fa-steam"></i></a></td>
+                                            <td class="text-left"><a href="https://steamcommunity.com/profiles/<?php echo $t10swrh['steamid64']; ?>" target="_blank" title="<?php echo $t10swrh['name']; ?> - <?php echo STEAM_PROFILE;?>" class="text-body"><?php echo $t10swrh['name']; ?> <i class="fab fa-steam text-muted"></i></a></td>
                                             <td class="text-center"><?php echo number_format($t10swrh['wrcps']); ?></td>
                                             <td class="text-center"><?php echo number_format($t10swrh['finishedstages']); ?></td>
                                         </tr>
